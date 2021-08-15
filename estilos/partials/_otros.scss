@@ -1,0 +1,23 @@
+.galeriaImg{
+
+    &__texto{
+        font-family: 'Bebas Neue';
+        text-align: center;
+        color: rgb(255, 251, 251);
+        font-size: 1.1rem;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    
+    &__contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    &__img{
+        width: 38vw;
+        margin-bottom: 5vh;
+    }
+}
+
