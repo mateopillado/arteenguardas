@@ -1,7 +1,4 @@
-@import "./partials/baños";
-@import "./partials/piscinas";
-@import "./partials/cocinas";
-@import "./partials/otros";
+@import "./partials/pestañas";
 
 *{
     margin: 0px;
@@ -27,7 +24,13 @@
     font-size: 1rem;
 }
 
-// FIN NUEVO
+.sticky{
+    background-color: rgba(0, 0, 0, 0.63);
+    position: sticky;
+    top:0px;
+    z-index: 100;
+}
+
 .textoIndex{
     font-family: 'Bebas Neue';
     color: rgb(255, 255, 255);
@@ -38,7 +41,7 @@
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: #171717;
 }
 
 .centrarImg{

@@ -24,7 +24,7 @@
 </head>
 <body>
   <!-- Navegacion -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -54,26 +54,28 @@
     </div>
   </nav>
   <!-- CARRUCEL -->
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./imagenes-videos/drew-dau-GA2sc8nIOsk-unsplash.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./imagenes-videos/erwan-hesry-iDLYNAm4WEc-unsplash.jpg" class="d-block w-100" alt="...">
+        <img src="./imagenes-videos/drew-dau-GA2sc8nIOsk-unsplash.jpg" class="d-block w-100" alt="imagen de piscina">
       </div>
       <div class="carousel-item">
         <img src="./imagenes-videos/john-cameron-BiWcSlcQgSA-unsplash.jpg" class="d-block w-100" alt="...">
       </div>
+      <div class="carousel-item">
+        <img src="./imagenes-videos/erwan-hesry-iDLYNAm4WEc-unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <!-- sacar -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+    <!-- hasta aca -->
   </div>
   <!-- MAIN -->
   <main>
@@ -85,7 +87,7 @@
           una sensación, una parte de nosotros.</p>
       </div>
     </div>
-    <!-- Imagenes -->
+    <!-- Imagenes-->
     <div class="container-fluid">
       <div class="row">
         <div class="centrarImg">
