@@ -77,6 +77,26 @@ body{
     transform: scale(1.08);
 }
 
+.boton_Wpp{
+    position:fixed;
+    width:50px;
+    height:50px;
+    bottom:15px;
+    left:15px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:40px;
+    text-align:center;
+    font-size:33px;
+    z-index:100;
+    transition:300ms;
+}
+
+.boton_Wpp:hover{
+    background-color: #5ed389fd;
+    color: white;
+}
+
 $anchoMaps: 100vw;
 $anchoImg: 100vw;
 $margenes: 20px;
