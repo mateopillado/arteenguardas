@@ -5,6 +5,16 @@
     padding: 0px;
 }
 
+// filtro
+.filtro{
+    filter: grayscale(100%);
+}
+
+.filtro:hover{
+    filter: grayscale(0);
+    transition: 1.5s;
+}
+
 .navPrueba{ 
     font-size: 1rem;
     font-family: 'Bebas Neue';
