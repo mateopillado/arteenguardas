@@ -16,40 +16,47 @@
   <!-- Description -->
   <meta name="description" content="Arte en Guardas. Revestimiento de piscinas, armados personalizados, degrades, mix, todo a gusto del cliente!.">
 
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <link rel="stylesheet" href="../estilos/main.css">
 
 </head>
 <body>
     <!-- Navegacion -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center fuenteNav" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link navPrueba" href="../index.html">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navPrueba navPrueba--active" href="#">PISCINAS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navPrueba" href="./banos.html">BAÑOS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navPrueba" href="./cocinas.html">COCINAS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navPrueba" href="./personalizados.html">ESPECIALES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navPrueba" href="#contacto">CONTACTO</a>
-            </li>
-          </ul>
+    <div data-aos="fade-down"
+    data-aos-duration="700">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center fuenteNav" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link navPrueba" href="../index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navPrueba navPrueba--active" href="#">PISCINAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navPrueba" href="./banos.html">BAÑOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navPrueba" href="./cocinas.html">COCINAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navPrueba" href="./personalizados.html">ESPECIALES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navPrueba" href="#contacto">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <!-- Boton wpp -->
     <div>
       <a href="https://api.whatsapp.com/send?phone=+54 9 3515917980" target="_blank" class="boton_Wpp"><i class="bi bi-whatsapp"></i></a>
@@ -58,12 +65,12 @@
     <main class="galeriaImg">
         <p class="galeriaImg__texto">- Arte en Guardas es la experiencia de poder proyectar las propias ideas de manera que se vean como las soñamos -</p>
         <div class="galeriaImg__contenedor">
-            <img src="../imagenes-videos/imagenesPiletas/piscina-1-768x594.jpeg" alt="" class="galeriaImg__img rounded img-fluid filtro">
-            <img src="../imagenes-videos/imagenesPiletas/piscina-2-768x594.jpeg" alt="" class="galeriaImg__img rounded img-fluid filtro">
-            <img src="../imagenes-videos/imagenesPiletas/piscina-3-768x594.jpeg" alt="" class="galeriaImg__img rounded img-fluid filtro">
-            <img src="../imagenes-videos/imagenesPiletas/piscina-4-768x594.jpeg" alt="" class="galeriaImg__img rounded img-fluid filtro">
-            <img src="../imagenes-videos/imagenesPiletas/piscina-5-768x594.jpeg" alt="" class="galeriaImg__img rounded img-fluid filtro">
-            <img src="../imagenes-videos/imagenesPiletas/piscina-6-768x594.jpeg" alt="" class="galeriaImg__img rounded img-fluid filtro">
+            <img src="../imagenes-videos/imagenesPiletas/piscina-1-768x594.jpeg" alt="" class="galeriaImg__img rounded img-fluid">
+            <img src="../imagenes-videos/imagenesPiletas/piscina-2-768x594.jpeg" alt="" class="galeriaImg__img rounded img-fluid">
+            <img src="../imagenes-videos/imagenesPiletas/piscina-3-768x594.jpeg" alt="" class="galeriaImg__img rounded img-fluid">
+            <img src="../imagenes-videos/imagenesPiletas/piscina-4-768x594.jpeg" alt="" class="galeriaImg__img rounded img-fluid">
+            <img src="../imagenes-videos/imagenesPiletas/piscina-5-768x594.jpeg" alt="" class="galeriaImg__img rounded img-fluid">
+            <img src="../imagenes-videos/imagenesPiletas/piscina-6-768x594.jpeg" alt="" class="galeriaImg__img rounded img-fluid">
         </div>
     </main>
     <!-- FOOTER -->
@@ -94,7 +101,11 @@
   </div>
   
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>

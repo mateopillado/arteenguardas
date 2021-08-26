@@ -3,21 +3,12 @@
 *{
     margin: 0px;
     padding: 0px;
-}
-
-// filtro
-.filtro{
-    filter: grayscale(100%);
-}
-
-.filtro:hover{
-    filter: grayscale(0);
-    transition: 1.5s;
+    
 }
 
 .navPrueba{ 
     font-size: 1rem;
-    font-family: 'Bebas Neue';
+    font-family: 'Open Sans', sans-serif;
     color: white !important;
     margin-left: 7px;
     margin-right: 7px;
@@ -29,7 +20,7 @@
 .navPrueba--active{
     color: rgb(192, 191, 191) !important;
     border-bottom: 1px solid rgb(255, 255, 255);
-    font-family: 'Bebas Neue';
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
 }
 
@@ -41,7 +32,7 @@
 }
 
 .textoIndex{
-    font-family: 'Bebas Neue';
+    font-family: 'Open Sans', sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 1vw;
@@ -68,7 +59,8 @@ body{
     margin-bottom: 20px;
     .txtCarrusel{
         color: white;
-        font-size: x-large;
+        font-size: 1.1rem;
+        font-family: 'Open Sans', sans-serif;
     }
 }
 
@@ -163,7 +155,6 @@ $margenes: 20px;
             width: ($anchoImg)-15;
             margin-top: 5vh;
         }
-
     }
 }
 
@@ -304,8 +295,8 @@ $margenes: 20px;
 
     .textoIndex{
         font-size: 1.5vw;
-        margin-top: $margenes;
-        margin-bottom: ($margenes)*2;
+        margin-top: $margenes+20;
+        margin-bottom: $margenes+40;
     }
 
     .galeriaImg{
