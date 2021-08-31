@@ -68,12 +68,30 @@ body{
     background-color:#262626; 
 }
 
-.movSvg{
-    transform: translateY(60px)  
+.navBetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: white !important;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.logo:hover{
+    color: rgb(204, 202, 202) !important;
+}
+
+.movFot{
+    transform: translatey(-30px)  
 }
 
 .footerIndex{
-    font-family: 'Bebas Neue';
+    font-family: 'Open Sans', sans-serif;
     a{color: white;}
     padding-top:20px;
     padding-bottom: 20px;
